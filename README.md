@@ -1,46 +1,41 @@
-# Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
+Tabii ki! Aşağıda projenizi İngilizceye çevrilmiş bir README örneği bulunmaktadır:
 
-Bu proje, bir oyun şirketinin müşterilerinin demografik özelliklerini kullanarak seviye tabanlı yeni müşteri tanımları oluşturmayı ve bu tanımlara göre segmentlere ayırarak potansiyel müşterilerin şirkete ortalama kazançlarını tahmin etmeyi amaçlamaktadır.
+---
 
-## İş Problemi
+# Predicting Potential Customer Revenue with Rule-Based Classification
 
-Oyun şirketi, müşteri profillerini analiz ederek yeni müşteri segmentleri oluşturmak ve bu segmentlere göre potansiyel müşterilerin getirisini öngörmek istemektedir. Proje, bu hedeflere ulaşmak için kural tabanlı sınıflandırma yöntemlerini kullanmaktadır.
+This project aims to create level-based new customer definitions using demographic characteristics of a gaming company's customers and to predict the average revenue of potential customers by segmenting them based on these definitions. The project utilizes rule-based classification methods to achieve these goals.
 
-## Veri Seti Hikayesi
+## Business Problem
+The gaming company wants to create new customer segments by analyzing customer profiles and wants to predict the revenue of potential customers based on these segments. The project uses rule-based classification methods to achieve these goals.
 
-Proje, uluslararası bir oyun şirketinin satış verilerini içeren bir veri seti kullanmaktadır. Veri seti, müşterilerin harcama tutarları, cihaz türleri, cinsiyetleri, ülkeleri ve yaşları gibi demografik bilgileri içermektedir.
+## Dataset Story
+The project uses a dataset containing sales data of an international gaming company. The dataset includes demographic information such as customer spending amounts, device types, genders, countries, and ages.
 
-### Uygulama Öncesi
+### Before Application
+The initial dataset consists of the following columns:
+- PRICE: Amount spent by the customer
+- SOURCE: Type of device the customer is connected to
+- SEX: Gender of the customer
+- COUNTRY: Country of the customer
+- AGE: Age of the customer
 
-Başlangıç veri seti şu sütunlardan oluşmaktadır:
-- PRICE: Müşterinin harcama tutarı
-- SOURCE: Müşterinin bağlandığı cihaz türü
-- SEX: Müşterinin cinsiyeti
-- COUNTRY: Müşterinin ülkesi
-- AGE: Müşterinin yaşı
+### After Application
+The project analyzes the dataset to determine new customer segments and average earnings based on these segments. Additionally, potential customers' belonging segments and expected average earnings are predicted using rule-based classification.
 
-### Uygulama Sonrası
-
-Proje, veri setini analiz ederek yeni müşteri segmentlerini ve bu segmentlere göre ortalama kazançları belirlemektedir. Ayrıca, kural tabanlı sınıflandırma kullanılarak potansiyel müşterilerin hangi segmente ait olduğu ve beklenen ortalama kazançları tahmin edilmektedir.
-
-## Kullanılan Teknolojiler
-
+## Technologies Used
 - Python
-- Pandas kütüphanesi
+- Pandas library
 - Jupyter Notebook
 
-## Projeyi Çalıştırma
+## Running the Project
+1. Clone this repository to your local machine.
+2. In the terminal or command prompt, enter the following command to install the required Python libraries: `pip install -r requirements.txt`
+3. Start Jupyter Notebook and open the project file.
+4. You can examine the project by running each cell sequentially.
 
-1. Bu depoyu yerel makinenize klonlayın.
-2. Gerekli Python kütüphanelerini yüklemek için terminal veya komut istemcisine şu komutu girin: `pip install -r requirements.txt`
-3. Jupyter Notebook'u başlatın ve proje dosyasını açın.
-4. Her hücreyi sırayla çalıştırarak projeyi inceleyebilirsiniz.
+## Results
+The project provides valuable insights into customer segmentation and potential customer revenue prediction. The obtained results can help optimize the company's marketing and sales strategies.
 
-## Sonuçlar
 
-Proje, müşteri segmentasyonu ve potansiyel müşteri getirisi tahminleme konularında değerli bilgiler sunmaktadır. Elde edilen sonuçlar, şirketin pazarlama ve satış stratejilerini optimize etmesine yardımcı olabilir.
-
-## Katkıda Bulunma
-
-Eğer bu projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği (pull request) göndermeden önce konuyla ilgili bir konuşma (issue) açın. Bu, projeye yapılacak katkıların daha iyi anlaşılmasına yardımcı olacaktır.
 
