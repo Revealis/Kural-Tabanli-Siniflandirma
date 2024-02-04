@@ -1,6 +1,3 @@
-Tabii ki! Aşağıda projenizi İngilizceye çevrilmiş bir README örneği bulunmaktadır:
-
----
 
 # Predicting Potential Customer Revenue with Rule-Based Classification
 
